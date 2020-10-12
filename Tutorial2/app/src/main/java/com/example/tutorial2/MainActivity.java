@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,8 +19,13 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        // create a toast. the toast will appear for a second at the bottom of the app.
+        Toast.makeText(MainActivity.this, "Hello, this is my toast", Toast.LENGTH_LONG).show();
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         miles = (EditText) findViewById(R.id.miles);
         button1 = (Button) findViewById(R.id.button1);

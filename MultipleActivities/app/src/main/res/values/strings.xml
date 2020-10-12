@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MultipleActivities</string>
+    <string-array name="planets_array">
+        <item>Spaghetti</item>
+        <item>Pizza</item>
+        <item>Curry</item>
+    </string-array>
+</resources>
